@@ -1,0 +1,43 @@
+.styledFont, .green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+
+h1, .center {
+    text-align: center;
+}
+
+.heavy {
+    font-weight: Bold;
+}
+
+.smallFont {
+    font-size: 10px;
+}
+
+.bigFont {
+    font-size: 40px;
+}
+
+.altFont {
+    font-family: 'Segoe UI';
+    font-style: normal
+}
+
+img {
+    border: orange;
+    border-style: groove;
+    border-width: 6px;
+}

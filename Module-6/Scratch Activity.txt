@@ -1,0 +1,41 @@
+https://scratch.mit.edu/projects/206104832/ 
+
+
+
+
+// NOTES
+On New
+	Randomly place cheese 
+
+
+Check player location matches cheese location
+	if yes
+		Increment score
+		Reset cheese location
+	else 
+		Keep moving
+	
+	
+	
+	
+Check Score
+	If = 10 
+		Show Winner
+	Else 
+		Do Nothing
+		
+
+		
+Rules:
+	Cat can not leave boundary of the frame
+	Poof location can not be cats location
+	After win, cat location does not reset
+	
+	
+Var = Cat Location
+Var = cheese Location
+Var = Score
+
+
+Stretch
+alternate costume on steps 

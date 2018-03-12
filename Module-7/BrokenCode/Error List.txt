@@ -1,0 +1,20 @@
+Errors Found
+
+Page Title Styling
+Broken Profile Image
+Remove Instructions Section
+About Paragraph styling
+fact generation broken
+List of fav things missing styling
+grow / shrink broken - JS function not defined. missing quotes
+color styling broken
+page order wrong
+fix css styling for favorite things list
+Fix indentation
+Adding missing lines in code
+fix color mapping
+mapped to wrong js file. 
+Missing comments
+JS File - Pink color missing quotes
+only generating the same fact due to missing quotes in array
+no comments on js file

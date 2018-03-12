@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+iframe {
+    border:none;
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+.center {
+    margin:center;
+    align-content: center;
+}
+
+img {
+    position: center;
+    top: 50%;
+    left: 50%;
+
+    }
+
