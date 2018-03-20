@@ -1,27 +1,39 @@
 <!doctype:HTML>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>New Jersey Devils</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/devils.png"/>
-    <link rel="stylesheet" type="text/css" href="style.css"
+
+<!--Bootstrap-->    
+<!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <body>
 
 <!--Header Div -->
-<div>
-    <img src="images/text.png">
+<div class="container">
+    <div class="jumbotron jumbotron-fluid mx-auto">
+        <img src="images/text.png">
+    </div>
 </div>
 
 <!--Image Div -->
-<div>
-    <img src="images/hall.webp" alt= "Taylor Hall: The Trade is one for one">
+<div class="container-fluid">
+    <div class="container-fluid">
+        <img src="images/hall.webp" alt= "Taylor Hall: The Trade is one for one">
+    </div>
+</div>
 
-</div>
-<!-- Buy tickets button -->
-<div>
-    <a href="https://www.nhl.com/devils/tickets" target="_blank">Buy Tickets</a>
-</div>
 <!-- Bio Div -->
-<div>
+<div class="container-fluid">
     <h1>Team History</h1>
         <p> The New Jersey Devils are a professional ice hockey team based in Newark, New Jersey. 
             They are members of the Metropolitan Division of the Eastern Conference of the National Hockey League. 
@@ -35,10 +47,10 @@
 </div>
 
 <!-- Roster Div -->
-<div>
+<div class="container-fluid">
     <h1>Current Roster</h1>
     <div>
-        <table>
+        <table class="table">
             <tr>
                 <th colspan="4">Forwards</th>
             </tr>
@@ -77,7 +89,7 @@
     <br>
 
     <div>
-        <table>
+        <table class="table">
             <tr>
                 <th colspan="4">Defensemen</th>
             </tr>
@@ -106,7 +118,7 @@
     <br>
 
     <div>
-        <table>
+        <table class="table">
             <tr>
                 <th colspan="2">Goaltenders</th>
             </tr>
@@ -126,8 +138,9 @@
     </div>
     <br>
 
-    <div>
+    <div class="list-group">
         <h2>Coaches</h2>
+
         <li>John Hynes</li>
         <li>Geoff Ward</li>
         <li>Alain Nasreddine</li>
@@ -136,7 +149,7 @@
 </div>
 
 <!-- Video Div -->
-<div>
+<div class="container-fluid">
     <div>
         <h1>Highlight Reel</h1>
     </div>
@@ -152,13 +165,13 @@
 </div>
 
 <!-- Embed Standings -->
-<div>
+<div class="container-fluid">
     <div>
         <h1>Current Standings</h1>
     </div>
 <!-- #TODO: need to figure out to handle iframe link issue -->    
     <div>
-        <iframe 
+        <iframe class="iframe"
             src="https://www.hockey-reference.com/play-index/share.fcgi?id=Mju96&output=iframe" 
             width=260 
             height=900
@@ -166,6 +179,14 @@
         </iframe>
     </div>
 </div>
+<hr>
+<footer class="footer">
+<!-- Buy tickets button -->
+    <div>
+        <a class="btn btn-default" href="https://www.nhl.com/devils/tickets" target="_blank">Buy Tickets</a>
+    </div>
+<hr>
+</footer>
 
 </body>
 </head>
